@@ -30,7 +30,7 @@ public class H3ApiTestController {
 	@GetMapping("/test")
 	public String welcome() {
 		
-		 String val = "Bem vindo \n\r \n\r";
+		 String val = "Bem vindo essa são todas  as Pessoas: \n\r \n\r";
 		 
 		List<H3ApiTestPessoaEntity> listaPessoa = pessoaRepository.findAll(); 
 		 
